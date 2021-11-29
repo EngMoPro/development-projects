@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1638225016 source:c:\users\pro88\desktop\test\calculator\main.cpp
+	<iostream>
+	<conio.h>
+

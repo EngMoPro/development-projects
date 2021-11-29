@@ -107,16 +107,23 @@ int main()
 {
 
 calc x;
-int n1,n2,option,pass;
+int n1,n2,option,ch;
+string pass="";
 char y;
-pass=getch();
 system("color 3");
 
 do {
     x.body();
 cout<<" please enter pin code to continue"<<endl;
-cin>>pass;
-if(pass==12345){
+ch=getch();
+    while(ch !=13)
+    {
+        pass.push_back(ch);
+        cout<<"*";
+        ch=getch();
+        
+    }
+if(pass=="12345mm"){
 cout<<"your password has been activated welcome this console calculator made by Eng.Mo.H"<<endl;
 
 }
